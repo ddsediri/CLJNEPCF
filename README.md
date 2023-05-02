@@ -37,6 +37,7 @@ The inference script accepts only point clouds in the '.ply' format. Please conv
 * sigma = 1.1%: **200**
 * sigma = 1.5%: **200**
 * sigma = 2.0%: **200**
+- If point clouds do not have the associated point normals, the inference script will throw an assertion error.
 
 ## Dataset
 Please place the Test directory within the ```Dataset``` directory such that the paths for the Test set is ```Dataset/Test```.
