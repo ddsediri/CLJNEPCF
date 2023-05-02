@@ -62,8 +62,8 @@ if __name__ == '__main__':
 
     shapes_list_file = 'testset.txt'
     dataset_root = './Dataset/'
-    testset_root = dataset_root + 'TestHighNoise'
-    test_results_type = 'TestHighNoiseResults'
+    testset_root = dataset_root + 'Test'
+    test_results_type = 'TestResults'
     opt.save_dir = dataset_root + test_results_type
     gt_root = './Dataset/GroundTruth'
 

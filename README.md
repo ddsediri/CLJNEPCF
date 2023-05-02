@@ -41,6 +41,8 @@ The inference script accepts only point clouds in the '.ply' format. Please conv
 ## Dataset
 Please place the Test directory within the ```Dataset``` directory such that the paths for the Test set is ```Dataset/Test```.
 
+The names of input files should be listed within ```testset.txt``` and saved in the Test directory.
+
 ## Run inference only
 To run inference, please run the following bash command within the root directory:
 ```
