@@ -32,12 +32,11 @@ The inference script accepts only point clouds in the '.ply' format. Please conv
 - Our method estimates **unoriented** normals. We use PCA normals as references to flip our estimated unoriented normals to a more consistent direction.
 - Thereafter, our estimated normals are used in the LRMA post-processing algorithm to update point positions.
 - We use the following neighborhood sizes, for the corresponding noise levels, for the PCA normals:
-* sigma = 0.6%: **60**
-* sigma = 0.8%: **150**
-* sigma = 1.1%: **200**
-* sigma = 1.5%: **200**
-* sigma = 2.0%: **200**
-- If point clouds do not have the associated point normals, the inference script will throw an assertion error.
+	* sigma = 0.6%: **60**
+	* sigma = 0.8%: **150**
+	* sigma = 1.1%: **200**
+	* sigma = 1.5%: **200**
+	* sigma = 2.0%: **200**
 
 ## Dataset
 Please place the Test directory within the ```Dataset``` directory such that the paths for the Test set is ```Dataset/Test```.
