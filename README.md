@@ -1,3 +1,7 @@
+# Contrastive Learning for Joint Normal Estimation and Point Cloud Filtering
+
+This is the official implementation of the paper titled "Contrastive Learning for Joint Normal Estimation and Point Cloud Filtering", accepted to IEEE Transactions on Visualization and Computer Graphics.
+
 # Install software requirements
 Please run the following pip install command:
 ```
