@@ -1,6 +1,6 @@
 # Contrastive Learning for Joint Normal Estimation and Point Cloud Filtering
-
-This is the official implementation of the paper titled "Contrastive Learning for Joint Normal Estimation and Point Cloud Filtering", accepted to IEEE Transactions on Visualization and Computer Graphics.
+![Joint normal estimation and filtering network](RegressionNetwork.png)
+```This is the official implementation of the paper titled "Contrastive Learning for Joint Normal Estimation and Point Cloud Filtering", accepted to IEEE Transactions on Visualization and Computer Graphics.```
 
 # Install software requirements
 Please run the following pip install command:
@@ -73,7 +73,7 @@ You may either run the feature encoding training, regressor training and inferen
 ```
 The trained feature encoder and regressor will be saved into ```./FeatureEncoderTrained``` and ```./RegressorTrained```, respectively.
 
-## Acknowledgement and citation
+# Acknowledgement and citation
 Our code is partially based on ``Pointfilter: Point Cloud Filtering via Encoder-Decoder Modeling`` by Zhang et al. Kudos to them for their excellent implementation and resources. Please check their GitHub repo [here](https://github.com/dongbo-BUAA-VR/Pointfilter).
 
 If you find our paper interesting and our code useful, please cite our paper with the following BibTex citation:
