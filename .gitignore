@@ -1,4 +1,5 @@
 Dataset/Test/
+Dataset/TestGroundTruth/
 Dataset/Train/
 Dataset/Validation/
 FeatureEncoderPreTrained/
