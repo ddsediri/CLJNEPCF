@@ -60,12 +60,12 @@ if __name__ == '__main__':
     opt = parse_arguments()
     opt.num_noise_levels = 0
 
-    shapes_list_file = 'testset.txt'
+    shapes_list_file = opt.shapes_list_file
     dataset_root = './Dataset/'
     testset_root = dataset_root + 'Test'
     test_results_type = 'TestResults'
     opt.save_dir = dataset_root + test_results_type
-    gt_root = './Dataset/GroundTruth'
+    gt_root = './Dataset/TestGroundTruth'
 
     model = ClassifierNet(3)
 
